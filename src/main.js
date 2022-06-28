@@ -1,3 +1,5 @@
+import "@fortawesome/fontawesome-free/css/all.css";
+import "@fortawesome/fontawesome-free/js/all.js";
 import VueCompositionAPI, { createApp, h } from "@vue/composition-api";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Vue from "vue";
