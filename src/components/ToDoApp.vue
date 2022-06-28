@@ -11,7 +11,7 @@
           placeholder="Enter task"
           class="form-control"
         />
-        <button @click="submitTask" class="btn btn-info rounded-0 color-purple">
+        <button @click="submitTask" class="btn btn-info rounded-0">
           Submit
         </button>
       </div>
