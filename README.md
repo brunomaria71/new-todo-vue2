@@ -1,6 +1,8 @@
-# new-vue-todo
+# Vue To-Do app in Version 2. Version 2 is what many companies continue to use today.
 
-This template should help get you started developing with Vue 2 in Vite.
+Vite was used, it is a great tool for developers that drastically speeds up the bundling process.
+
+This template should help get you started developing with Vue 2 in Vite. 
 
 ## Recommended IDE Setup
 
