@@ -11,12 +11,16 @@
           placeholder="Enter task"
           class="form-control"
         />
-        <button @click="submitTask" class="btn btn-info rounded-0">
+        <button
+          @click="submitTask"
+          class="btn btn-info rounded-0"
+          style="background-color: white"
+        >
           Submit
         </button>
       </div>
       <!--Task table -->
-      <table class="table table-bordered mt-5">
+      <table class="table table-bordered mt-5" style="background-color: white">
         <thead>
           <tr>
             <th scope="col">Task</th>
@@ -32,7 +36,7 @@
                 task.name
               }}</span>
             </th>
-            <td>
+            <td style="max-width: 50px">
               <span @click="changeStatus(index)" role="button">{{
                 task.status
               }}</span>
@@ -85,7 +89,7 @@ export default {
       if (this.editedTask === null) {
         this.tasks.push({
           name: this.task,
-          status: "to-do",
+          status: "To-do",
         });
       } else {
         this.tasks[this.editedTask].name = this.task;
